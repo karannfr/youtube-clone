@@ -1,5 +1,6 @@
 body{
   background-color: black;
+  overflow-x: hidden;
 }
 header{
   display: flex;
@@ -103,4 +104,52 @@ menu span{
 menu hr{
   opacity: 5%;
   margin-left:-12px ;
+}
+section{
+  position: relative;
+  top: 8vh;
+  left: 15vw;
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 24px;
+  padding: 12px;
+  overflow-x: hidden;
+  z-index: -1;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 360px;
+  margin: 24px 28px;
+}
+.card span{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.information{
+  margin-top: 16px;
+  display: flex;
+}
+.information img{
+  height: 48px;
+  margin-right: 16px;
+}
+.creator{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.creator div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.creator div span{
+  opacity: 50%;
+}
+.title{
+  font-weight: bolder;
 }
